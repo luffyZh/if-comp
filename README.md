@@ -10,8 +10,8 @@ import IfComp from 'if-comp';
   const InnerIfComp = () => (
     <IfComp 
       expression={true}
-      trueComp={<h3>嵌套组件为真</h3>}
-      false={<h3>嵌套组件为假</h3>}
+      trueComp={<h3>render true component</h3>}
+      falseComp={<h3>render false component</h3>}
     />
   )
   // expression value is true
