@@ -1,6 +1,6 @@
 {
   "name": "if-comp",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A very simple component for react when you need to render the component according to the value of the expression.",
   "main": "index.js",
   "repository": "https://github.com/luffyZh/If-Comp.git",
