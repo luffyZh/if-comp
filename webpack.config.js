@@ -19,15 +19,11 @@ module.exports = {
       { 
         test: /\.js$/, 
         exclude: /node_modules/, 
-        use: {
-          loader: 'babel-loader',
-          options: {
-            presets: ['@babel/preset-react','@babel/preset-env']
-          }
-        }
+        loader: 'babel-loader?presets[]=env&presets[]=es2015&presets[]=react&presets[]=stage-1' 
       }
     ]
   },
+
   plugins: [
     new CleanWebpackPlugin(['lib'])
   ]

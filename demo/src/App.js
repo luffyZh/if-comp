@@ -1,17 +1,16 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import IfComp from './IfComponent';
-// import IfComp from 'if-comp';
+// import IfComp from './IfComponent';
+import IfComp from 'if-comp';
 
 
 class App extends Component {
   render() {
     const InnerIfComp = () => (
       <IfComp 
-        expression={true}
+        expression={false}
         trueComp={<h3>嵌套组件为真</h3>}
-        false={<h3>嵌套组件为假</h3>}
       />
     )
     return (
